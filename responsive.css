@@ -1,0 +1,89 @@
+html {
+    font-size: 50%;
+}
+
+.produtos li {
+    width: 215px;
+    height: 300px;}
+
+.organizar {
+    flex-direction: column;}
+
+    .produtos{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+@media (max-width: 630px){
+
+    .organizar {
+        flex-direction: column;}
+
+    .verduras {
+        max-width: 40%}
+
+    .produtos li {
+        width: 177px;
+        height: 302px;
+    }
+
+    iframe {
+        width:90%; 
+        height:300px;
+    }
+}
+
+@media (max-width: 540px) {
+        html {
+            font-size: 40%;
+        }
+
+
+        .produtos li {
+            width: 177px;
+            height: 254px;
+        }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 30%;
+        }
+
+    .caixa img {
+        width: 70px;
+        }
+
+    .scroll img {
+        height: 24px;
+        }
+
+        .produtos li {
+            width: 158px;
+            height: 188px;
+        }
+
+        .produtos li img {
+            height: 18rem;
+        }
+
+        .fieldsetSeleçao {
+            width: 70%;
+        }
+
+        .input-padrao {
+            width: 70%;
+        }
+
+        .input-Mensagem {
+            width: 70%;
+        }
+
+        iframe {
+            width:90%; 
+            height:150px;
+        }
+
+}
+

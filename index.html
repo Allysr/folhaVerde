@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Folha Verde</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="responsive.css" media="screen and (max-width: 768px)"
+    />
+		<link rel="shortcut icon" type="imagex/svg" href="assets/icon.svg">
+
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="caixa">
+				<h1><img src="assets/Logo.svg" class="logo" alt="Logo do restaurante folha verde"></h1>
+				<nav>
+					<ul>
+						<li><a href="#index">Home</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#produtos">Produtos</a></li>
+						<li><a href="#contato">Contato</a></li>
+						<li><a href="#estabelecimento">Estabelecimento</a></li>
+
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+		
+		<img class="banner" src="assets/banner.svg">
+		
+		
+		<div class="scroll"><img class="click" src="assets/click.png" alt="Icone de um mouse indicando o uso do scroll"></div>
+		
+
+		<main class="organizarSobre">
+		  <h2 class="titulo-principal" id="sobre">Sobre o Folha Verde</h2>
+			<section class="tamanho" >
+				<div class="organizar">
+					<img class="verduras" src="assets/verduras.png" alt="Imagem de salada com verduras.">
+		   				<div class="texto-sobre">
+							<p>Localizada no coração da cidade o <strong>Folha Verde</strong> traz para o mercado o que há de melhor para a sua alimentação. Fundada em 2021, o Folha Verde já é destaque na cidade e conquista novos clientes a cada dia.</p>
+							<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da culinária. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+							<p id="missao">Nossa missão é: <em><strong>"Proporcionar alimentação e qualidade de vida aos clientes"</strong>.</em></p>
+						</div>
+				</div>
+			</section>
+		</main>
+
+		<section id="produtos" class="organizarProdutos">
+			<h2 class="titulo-principal-branco"> Produtos </h2>
+			<div class="tamanhop">
+				<ul class="produtos">
+					<li>
+						<h2>Alimentos</h2>
+						<img  class="imgProdutos" src="assets/comida.png" alt="Imagem de um macarrão">
+						<p class="produto-descricao">Alimentos servidos na hora perfeitos para a sua refeição.</p>					
+					</li>
+					<li>
+						<h2>Bebidas</h2>
+						<img class="imgProdutos" src="assets/bebidas.png" alt="Imagem de um suco de laranja">
+						<p class="produto-descricao">Bebidas feitas com frutas do nosso pomar.</p>		
+					</li>
+					<li>
+					<h2>Temperos</h2>
+						<img class="imgProdutos" src="assets/tempero.png" alt="Imagem de temperos">
+						<p class="produto-descricao">Temperos frescos para levar com você.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="contato" class="organizarContato">
+			<h3 class="titulo-principal">Contato</h3>
+			  <div class="tamanho">
+				<form>
+					
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+	
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+	
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+	
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="30" rows="10" id="mensagem" class="input-Mensagem" required></textarea>
+				  
+
+					<fieldset class="fieldsetSeleçao">
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+						
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+						
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+					</fieldset>
+	
+					<fieldset class="fieldsetSeleçao">
+						<legend>Qual horário prefere ser atendido?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+				
+	
+					<input type="submit" value="Enviar formulário" class="enviar">
+				</form>
+			</div>
+			</section>
+
+
+			<section id="estabelecimento" class="organizarEstabelecimento">
+				<h3 class="titulo-principal-branco">Nosso estabelecimento</h3>
+				<div class="tamanho">
+					<p class="textoEstabelecimento">Nosso estabelecimento está localizado no coração da cidade.</p>
+
+					<div class="mapa-conteudo">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</section>
+
+
+		<footer>
+			<img src="assets/logobranco.svg">
+			<p class="copyright">&copy; Copyright Folha Verde - 2021</p>
+		</footer>
+	</body>
+</html>

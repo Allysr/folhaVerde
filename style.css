@@ -1,0 +1,330 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+html {
+	font-size:62.5%;
+	
+}
+
+html,body {
+	font-family: 'Montserrat', sans-serif;
+	height:100vh;
+}
+
+body{
+	font-size: 1.6rem;
+
+}
+
+
+/* Começo do menu */
+header {
+	background: #ffffff;
+	
+}
+
+.caixa {
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.caixa img {
+	width: 150px;
+}
+/* O tamanho do logo é 150px e esse é o máximo que pode chegar */
+.logo {
+	max-width: 100%;
+}
+
+
+nav li {
+	display: inline;	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #8EBF25;
+	font-weight: bold;
+	font-size: 1.4rem;
+	padding-left: 1.6rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFBD59;
+	text-decoration: underline;
+}
+
+/* O banner */
+.banner {
+	width:100%;	
+}
+
+.scroll{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 10%;
+
+
+}
+
+.scroll img {
+	margin:1rem;
+	height:40px;
+	width:auto;
+}
+
+.click {
+	width:100%;
+}
+
+/* sobre o folha verde */
+
+.organizarSobre {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.organizar{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.texto-sobre {
+	text-indent: 1rem;
+	text-align: justify;
+	padding:4rem 0 0 0 ;
+	line-height: 2.4rem;
+	font-size: 1.6rem;
+	margin:2.0rem;
+
+	
+}
+
+.verduras {
+	max-width: 30%;
+	float: left;
+
+}
+
+
+
+/* produtos */
+
+.organizarProdutos {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background:#8EBF25;
+}
+
+
+.produtos li {
+	width:300px;
+	height:400px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin:1.6rem;
+	padding: 2rem 2rem;
+	box-sizing: border-box;
+	border-radius: 2rem;
+	background: #ffffff;
+	color: #FFBD59;
+	font-size: 1.6rem;
+}
+
+
+.produtos li:hover {
+	background: #FFBD59;
+	box-shadow: #ffb342 3px 3px;
+	color: #FFFFFF;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 1.8rem;
+}
+
+.produtos li img {
+	height: 20rem;
+	padding:2rem;
+	margin: 3rem 0 3rem 0;
+}
+
+.imgProdutos{
+	max-width: 100%;
+}
+.produtos h2 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+
+/* Contato */
+
+.organizarContato{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+fieldset {
+	display: flex;
+	justify-content: center;
+	padding:.5rem;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 1.6rem;
+	margin: 0 0 .5rem;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 1rem;
+	padding: 1rem 1rem;
+	width: 50%;
+	height:0.2rem;
+}
+
+.fieldsetSeleçao{
+	width: 50%;
+
+}
+.fieldsetSeleçao label{
+	margin: .5rem;
+
+}
+
+.input-Mensagem{
+	display: block;
+	margin: 0 0 .5rem;
+	padding: 1rem .5rem;
+	width: 50%;
+	height:6rem;
+}
+
+
+.enviar {
+	width:40rem;
+	height:4rem;
+	padding: .5rem 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: .5rem;
+	transition: 1s all;
+	cursor: pointer;
+	margin:2rem;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.1);
+}
+
+
+
+/* Estabelecimento */
+
+.organizarEstabelecimento {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background:#8EBF25;
+}
+
+.mapa {
+	padding: 3em 0;
+	background:#8EBF25;
+}
+
+.mapa-conteudo {
+	width: 80%;
+	margin: 3rem auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.textoEstabelecimento{
+	font-size: 1.6rem;
+}
+
+
+footer {
+	text-align: center;
+	background: url("assets/bg.png");
+}
+
+footer img {
+	height:10rem;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 1.6rem;
+}
+
+/* css em comum*/
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2.4rem;
+	color: #8EBF25;
+	margin: 3.0rem;
+	clear: left;
+}
+
+.titulo-principal-branco{
+	text-align: center;
+	font-size: 2.4rem;
+	color: #ffffff;
+	margin: 3.0rem;
+	clear: left;
+}
+
+.tamanho {
+	height: 90%;
+	width:80%;
+}
+
+.tamanhop {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
